@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), 
+    url(img/sakura.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+.header-navbar {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /*padding: 10px;*/
+    background-color: #ffffff;
+    position: fixed;
+    box-shadow: 1px 0px 10px rgb(0, 0, 0);
+    top: 0;
+}
+.list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list ul li {
+    list-style: none;
+    margin: 10px;
+}
+.list ul li a {
+    text-decoration: none;
+    align-self: center;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.list ul li a:hover {
+    color: rgb(255, 0, 0);
+}
+/*section {
+    height: 640px;
+}*/
+.wrapper {
+    height: 600px;
+    margin: 50px;
+    display: flex;
+    padding-top: 180px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: 10px;
+    gap: 100px;
+}
+.left {
+    /*margin: 0 10px;
+    padding: 10px;*/
+    text-align: justify;
+}
+h2 {
+    font-size: 40px;
+    color: #d20d0d;
+    padding-bottom: 15px;
+}
+.sp {
+    color: white;
+}
+p {
+    line-height: 25px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+button {
+    padding: 8px 40px;
+    border: none;
+    top: 20px;
+}
+button:hover {
+    background-color: #d20d0d;
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.about {
+    height: 630px;
+    background-color: #000;
+    color: #ffffff;
+}
+.container1 {
+    margin: auto 70px;
+}
+h3 {
+    font-size: 30px;
+    padding: 40px;
+    margin: auto 10px;
+    text-align: center;
+}
+.lesson-wrapper {
+    height: 620px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+.lesson-image img {
+    width: 170px;
+    height: 260px;
+    background-size: cover;
+    object-fit: cover;
+    z-index: -1;
+}
+.lesson-image img:hover {
+    transform: scale(1.2, 1.2);
+    z-index: -1;
+}
+.heading {
+padding-top: 60px;
+padding-bottom: 50px;
+color: #5f5d60;
+}
+.lessons {
+display: flex;
+padding: 0 100px;
+}
+.lesson {
+    padding: 15px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 9s;
+}
+.txt-contents {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    color: #000000;
+    font-weight: bold;
+    padding-top: 20px;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.lesson-wrapper2 {
+    margin: 20px;
+    height: 600px;
+}
+.container3 {
+    margin: 50px;
+}
+.info-wisata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h5 {
+    font-size: 25px;
+    padding: 20px 0;
+    color: #ffffff;
+}
+.informasi h6 {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 25px;
+}
+.contact-form {
+    height: 600px;
+    padding-top: 600px;
+    text-align: center;
+  }
+  input, textarea {
+    width: 400px;
+    margin-top: 10px; 
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #4192bd;
+  }
+  .contact-submit {
+    background-color: #dee7ec;
+    color:#889eab;
+    cursor: pointer;
+  }
+  .section-title {
+      color: #ffffff;
+  }
+  .form-input {
+      text-align: left;
+      padding-left: 480px;
+  }
+  .form {
+      background-color: #000;
+      height: 620px;
+  }
+  /**/
+  .licensy {
+      padding-top: 620px;
+      background-color: #000;
+  }
+  .info-web {
+      padding: 20px;
+      text-align: center;
+  }
+  .copyright a {
+      text-decoration: none;
+      color: #ffffff;
+  }
